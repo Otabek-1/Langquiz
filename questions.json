@@ -1,0 +1,102 @@
+[
+  {
+    "question": "O'zbekistonning poytaxti qaysi shahar?",
+    "options": ["Buxoro", "Toshkent", "Samarqand", "Farg‘ona"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Ingliz tilida 'kitob' so‘zining tarjimasi qaysi?",
+    "options": ["Book", "Pen", "Chair", "Window"],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Quyosh sistemasidagi eng katta sayyora qaysi?",
+    "options": ["Yer", "Mars", "Yupiter", "Venera"],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Kompyuterda 'Ctrl + C' nima qiladi?",
+    "options": ["Kesadi", "Nusxa oladi", "O‘chirish", "Yozadi"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Suvning kimyoviy formulasi qanday?",
+    "options": ["H2", "CO2", "H2O", "NaCl"],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Ingliz tilida 'qalam' nima?",
+    "options": ["Notebook", "Pen", "Table", "Bag"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Yil fasllari nechta?",
+    "options": ["2", "3", "4", "5"],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Python dasturlash tilining logotipi nimaga o‘xshaydi?",
+    "options": ["Mushuk", "Ilon", "Qush", "Kompyuter"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "HTML nimani anglatadi?",
+    "options": ["Hyper Trainer Markup Language", "HyperText Markup Language", "HighText Machine Language", "None of these"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "1 metr necha santimetr?",
+    "options": ["10", "100", "1000", "1"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Dunyoning eng baland tog‘i qaysi?",
+    "options": ["Everest", "Elbrus", "Tyan Shan", "Alplar"],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Kompyuterda 'Ctrl + V' nima qiladi?",
+    "options": ["Kesadi", "Nusxa oladi", "Joylaydi", "Tozalaydi"],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Kunning eng qisqa vaqti yilning qaysi fasliga to‘g‘ri keladi?",
+    "options": ["Bahor", "Yoz", "Kuz", "Qish"],
+    "correct_option_id": 3
+  },
+  {
+    "question": "O‘zbekiston mustaqilligini qachon e’lon qilgan?",
+    "options": ["1990", "1991", "1992", "1989"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Ingliz tilida 'uy' so‘zi qanday yoziladi?",
+    "options": ["Hose", "Hause", "House", "Homee"],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Qaysi element gaz holatidadir?",
+    "options": ["Suv", "Oltin", "Vodorod", "Mis"],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Toshkent qaysi daryo bo‘yida joylashgan?",
+    "options": ["Zarafshon", "Amudaryo", "Sirdaryo", "Chirchiq"],
+    "correct_option_id": 3
+  },
+  {
+    "question": "1 kilogramm necha gramm?",
+    "options": ["10", "100", "1000", "10000"],
+    "correct_option_id": 2
+  },
+  {
+    "question": "JavaScript nima?",
+    "options": ["O‘yin", "Brauzer", "Dasturlash tili", "Operatsion tizim"],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Dunyoning eng uzun daryosi qaysi?",
+    "options": ["Nil", "Amazonka", "Amudaryo", "Missisipi"],
+    "correct_option_id": 0
+  }
+]
