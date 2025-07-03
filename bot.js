@@ -20,7 +20,7 @@ const db = new Client({
 db.connect().then(() => console.log("✅ PostgreSQL connected"))
   .catch(err => console.error("❌ PostgreSQL connection error:", err));
 
-const classes = ["7A", "7B", "8A", "8B", "9A", "9B", "10A". "10B", "11A", "11B"];
+const classes = ["7A", "7B", "8A", "8B", "9A", "9B", "10A", "10B", "11A", "11B"];
 const userSessions = {}; // Foydalanuvchi ID asosida sessionlar
 
 function getRandomQuestions(count = 15) {
