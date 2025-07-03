@@ -1,102 +1,702 @@
 [
   {
-    "question": "O'zbekistonning poytaxti qaysi shahar?",
-    "options": ["Buxoro", "Toshkent", "Samarqand", "Farg‘ona"],
+    "question": "Select the correct tense: I ___ my homework already.",
+    "options": [
+      "finish",
+      "have finished",
+      "finished",
+      "had finish"
+    ],
     "correct_option_id": 1
   },
   {
-    "question": "Ingliz tilida 'kitob' so‘zining tarjimasi qaysi?",
-    "options": ["Book", "Pen", "Chair", "Window"],
+    "question": "Which word is a conjunction?",
+    "options": [
+      "and",
+      "run",
+      "green",
+      "very"
+    ],
     "correct_option_id": 0
   },
   {
-    "question": "Quyosh sistemasidagi eng katta sayyora qaysi?",
-    "options": ["Yer", "Mars", "Yupiter", "Venera"],
-    "correct_option_id": 2
-  },
-  {
-    "question": "Kompyuterda 'Ctrl + C' nima qiladi?",
-    "options": ["Kesadi", "Nusxa oladi", "O‘chirish", "Yozadi"],
-    "correct_option_id": 1
-  },
-  {
-    "question": "Suvning kimyoviy formulasi qanday?",
-    "options": ["H2", "CO2", "H2O", "NaCl"],
-    "correct_option_id": 2
-  },
-  {
-    "question": "Ingliz tilida 'qalam' nima?",
-    "options": ["Notebook", "Pen", "Table", "Bag"],
-    "correct_option_id": 1
-  },
-  {
-    "question": "Yil fasllari nechta?",
-    "options": ["2", "3", "4", "5"],
-    "correct_option_id": 2
-  },
-  {
-    "question": "Python dasturlash tilining logotipi nimaga o‘xshaydi?",
-    "options": ["Mushuk", "Ilon", "Qush", "Kompyuter"],
-    "correct_option_id": 1
-  },
-  {
-    "question": "HTML nimani anglatadi?",
-    "options": ["Hyper Trainer Markup Language", "HyperText Markup Language", "HighText Machine Language", "None of these"],
-    "correct_option_id": 1
-  },
-  {
-    "question": "1 metr necha santimetr?",
-    "options": ["10", "100", "1000", "1"],
-    "correct_option_id": 1
-  },
-  {
-    "question": "Dunyoning eng baland tog‘i qaysi?",
-    "options": ["Everest", "Elbrus", "Tyan Shan", "Alplar"],
+    "question": "Which word is a conjunction?",
+    "options": [
+      "and",
+      "run",
+      "green",
+      "very"
+    ],
     "correct_option_id": 0
   },
   {
-    "question": "Kompyuterda 'Ctrl + V' nima qiladi?",
-    "options": ["Kesadi", "Nusxa oladi", "Joylaydi", "Tozalaydi"],
+    "question": "What is the plural of 'child'?",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "childrens"
+    ],
     "correct_option_id": 2
   },
   {
-    "question": "Kunning eng qisqa vaqti yilning qaysi fasliga to‘g‘ri keladi?",
-    "options": ["Bahor", "Yoz", "Kuz", "Qish"],
-    "correct_option_id": 3
-  },
-  {
-    "question": "O‘zbekiston mustaqilligini qachon e’lon qilgan?",
-    "options": ["1990", "1991", "1992", "1989"],
+    "question": "Choose the synonym of 'happy'",
+    "options": [
+      "sad",
+      "joyful",
+      "angry",
+      "tired"
+    ],
     "correct_option_id": 1
   },
   {
-    "question": "Ingliz tilida 'uy' so‘zi qanday yoziladi?",
-    "options": ["Hose", "Hause", "House", "Homee"],
-    "correct_option_id": 2
+    "question": "Fill in the blank: I have ___ books.",
+    "options": [
+      "much",
+      "many",
+      "a",
+      "any"
+    ],
+    "correct_option_id": 1
   },
   {
-    "question": "Qaysi element gaz holatidadir?",
-    "options": ["Suv", "Oltin", "Vodorod", "Mis"],
-    "correct_option_id": 2
-  },
-  {
-    "question": "Toshkent qaysi daryo bo‘yida joylashgan?",
-    "options": ["Zarafshon", "Amudaryo", "Sirdaryo", "Chirchiq"],
-    "correct_option_id": 3
-  },
-  {
-    "question": "1 kilogramm necha gramm?",
-    "options": ["10", "100", "1000", "10000"],
-    "correct_option_id": 2
-  },
-  {
-    "question": "JavaScript nima?",
-    "options": ["O‘yin", "Brauzer", "Dasturlash tili", "Operatsion tizim"],
-    "correct_option_id": 2
-  },
-  {
-    "question": "Dunyoning eng uzun daryosi qaysi?",
-    "options": ["Nil", "Amazonka", "Amudaryo", "Missisipi"],
+    "question": "Which word is a conjunction?",
+    "options": [
+      "and",
+      "run",
+      "green",
+      "very"
+    ],
     "correct_option_id": 0
+  },
+  {
+    "question": "'He ___ to school every day.'",
+    "options": [
+      "go",
+      "goes",
+      "gone",
+      "going"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which word is an adjective?",
+    "options": [
+      "beauty",
+      "beautiful",
+      "beautify",
+      "be"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the right question word: ___ is your name?",
+    "options": [
+      "What",
+      "Who",
+      "How",
+      "When"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Choose the correct plural: 'leaf'",
+    "options": [
+      "leafs",
+      "leaves",
+      "leafes",
+      "leaf"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which article is correct: ___ apple",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the synonym of 'happy'",
+    "options": [
+      "sad",
+      "joyful",
+      "angry",
+      "tired"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct spelling",
+    "options": [
+      "definately",
+      "definitely",
+      "defanitely",
+      "definitly"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct: I like ___ apples.",
+    "options": [
+      "the",
+      "a",
+      "some",
+      "much"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Choose the correct plural: 'leaf'",
+    "options": [
+      "leafs",
+      "leaves",
+      "leafes",
+      "leaf"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Complete: 'He has been ___ for hours.'",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Select the preposition: 'He is ___ the room.'",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the noun in this sentence: 'The cat is sleeping.'",
+    "options": [
+      "sleeping",
+      "is",
+      "cat",
+      "the"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which article is correct: ___ apple",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct spelling",
+    "options": [
+      "definately",
+      "definitely",
+      "defanitely",
+      "definitly"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the synonym of 'happy'",
+    "options": [
+      "sad",
+      "joyful",
+      "angry",
+      "tired"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the opposite of 'cold'?",
+    "options": [
+      "cool",
+      "hot",
+      "warm",
+      "freeze"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which one is a verb?",
+    "options": [
+      "fast",
+      "run",
+      "quick",
+      "blue"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the comparative of 'good'?",
+    "options": [
+      "gooder",
+      "better",
+      "more good",
+      "best"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "'He ___ to school every day.'",
+    "options": [
+      "go",
+      "goes",
+      "gone",
+      "going"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct sentence",
+    "options": [
+      "She go to school",
+      "She goes to school",
+      "She going to school",
+      "She gone to school"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the comparative of 'good'?",
+    "options": [
+      "gooder",
+      "better",
+      "more good",
+      "best"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which article is correct: ___ apple",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct: I like ___ apples.",
+    "options": [
+      "the",
+      "a",
+      "some",
+      "much"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the plural of 'child'?",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "childrens"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which word is an adjective?",
+    "options": [
+      "beauty",
+      "beautiful",
+      "beautify",
+      "be"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the right question word: ___ is your name?",
+    "options": [
+      "What",
+      "Who",
+      "How",
+      "When"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Choose the synonym of 'happy'",
+    "options": [
+      "sad",
+      "joyful",
+      "angry",
+      "tired"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct sentence",
+    "options": [
+      "She go to school",
+      "She goes to school",
+      "She going to school",
+      "She gone to school"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which article is correct: ___ apple",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the comparative of 'good'?",
+    "options": [
+      "gooder",
+      "better",
+      "more good",
+      "best"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the opposite of 'cold'?",
+    "options": [
+      "cool",
+      "hot",
+      "warm",
+      "freeze"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Complete: 'He has been ___ for hours.'",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Select the preposition: 'He is ___ the room.'",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the plural of 'child'?",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "childrens"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Choose the correct past form of 'go'",
+    "options": [
+      "goed",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the opposite of 'cold'?",
+    "options": [
+      "cool",
+      "hot",
+      "warm",
+      "freeze"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which one is a verb?",
+    "options": [
+      "fast",
+      "run",
+      "quick",
+      "blue"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Fill in the blank: I have ___ books.",
+    "options": [
+      "much",
+      "many",
+      "a",
+      "any"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct sentence",
+    "options": [
+      "She go to school",
+      "She goes to school",
+      "She going to school",
+      "She gone to school"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct tense: I ___ my homework already.",
+    "options": [
+      "finish",
+      "have finished",
+      "finished",
+      "had finish"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the noun in this sentence: 'The cat is sleeping.'",
+    "options": [
+      "sleeping",
+      "is",
+      "cat",
+      "the"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Complete: 'He has been ___ for hours.'",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which one is a verb?",
+    "options": [
+      "fast",
+      "run",
+      "quick",
+      "blue"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct tense: I ___ my homework already.",
+    "options": [
+      "finish",
+      "have finished",
+      "finished",
+      "had finish"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct past form of 'go'",
+    "options": [
+      "goed",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Choose the correct spelling",
+    "options": [
+      "definately",
+      "definitely",
+      "defanitely",
+      "definitly"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct tense: I ___ my homework already.",
+    "options": [
+      "finish",
+      "have finished",
+      "finished",
+      "had finish"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct past form of 'go'",
+    "options": [
+      "goed",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the noun in this sentence: 'The cat is sleeping.'",
+    "options": [
+      "sleeping",
+      "is",
+      "cat",
+      "the"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Choose the correct plural: 'leaf'",
+    "options": [
+      "leafs",
+      "leaves",
+      "leafes",
+      "leaf"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "'He ___ to school every day.'",
+    "options": [
+      "go",
+      "goes",
+      "gone",
+      "going"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which word is a conjunction?",
+    "options": [
+      "and",
+      "run",
+      "green",
+      "very"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which one is a verb?",
+    "options": [
+      "fast",
+      "run",
+      "quick",
+      "blue"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct sentence",
+    "options": [
+      "She go to school",
+      "She goes to school",
+      "She going to school",
+      "She gone to school"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which word is an adjective?",
+    "options": [
+      "beauty",
+      "beautiful",
+      "beautify",
+      "be"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the comparative of 'good'?",
+    "options": [
+      "gooder",
+      "better",
+      "more good",
+      "best"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the preposition: 'He is ___ the room.'",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the right question word: ___ is your name?",
+    "options": [
+      "What",
+      "Who",
+      "How",
+      "When"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the noun in this sentence: 'The cat is sleeping.'",
+    "options": [
+      "sleeping",
+      "is",
+      "cat",
+      "the"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Fill in the blank: I have ___ books.",
+    "options": [
+      "much",
+      "many",
+      "a",
+      "any"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct: I like ___ apples.",
+    "options": [
+      "the",
+      "a",
+      "some",
+      "much"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Choose the right question word: ___ is your name?",
+    "options": [
+      "What",
+      "Who",
+      "How",
+      "When"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the opposite of 'cold'?",
+    "options": [
+      "cool",
+      "hot",
+      "warm",
+      "freeze"
+    ],
+    "correct_option_id": 1
   }
 ]
