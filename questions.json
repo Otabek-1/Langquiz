@@ -698,5 +698,505 @@
       "freeze"
     ],
     "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct tense: She ___ to the park yesterday.",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which word is a pronoun?",
+    "options": [
+      "table",
+      "she",
+      "run",
+      "blue"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the plural of 'mouse'?",
+    "options": [
+      "mouses",
+      "mice",
+      "mousen",
+      "mousees"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the synonym of 'big'",
+    "options": [
+      "small",
+      "large",
+      "tiny",
+      "short"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Fill in the blank: There are ___ students in the class.",
+    "options": [
+      "much",
+      "many",
+      "a lot",
+      "any"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which word is an adverb?",
+    "options": [
+      "quick",
+      "quickly",
+      "quickness",
+      "quicker"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Complete: 'They ___ playing football now.'",
+    "options": [
+      "are",
+      "is",
+      "be",
+      "were"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which article is correct: ___ elephant",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct spelling",
+    "options": [
+      "occasion",
+      "ocasion",
+      "occassion",
+      "ocasions"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Select the correct: I need ___ water.",
+    "options": [
+      "a",
+      "some",
+      "the",
+      "many"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the opposite of 'big'?",
+    "options": [
+      "large",
+      "huge",
+      "small",
+      "tall"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which one is a noun?",
+    "options": [
+      "jump",
+      "fast",
+      "dog",
+      "quickly"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Choose the correct past form of 'eat'",
+    "options": [
+      "eated",
+      "ate",
+      "eaten",
+      "eating"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which word is a preposition?",
+    "options": [
+      "under",
+      "sing",
+      "happy",
+      "book"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Choose the synonym of 'fast'",
+    "options": [
+      "slow",
+      "quick",
+      "calm",
+      "heavy"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the comparative of 'bad'?",
+    "options": [
+      "badder",
+      "worse",
+      "more bad",
+      "worst"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Complete: 'She ___ a book now.'",
+    "options": [
+      "read",
+      "reads",
+      "reading",
+      "is reading"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Which word is an adjective?",
+    "options": [
+      "happiness",
+      "happy",
+      "happily",
+      "happen"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the right question word: ___ are you going?",
+    "options": [
+      "What",
+      "Where",
+      "How",
+      "When"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the plural of 'foot'?",
+    "options": [
+      "foots",
+      "feet",
+      "footies",
+      "feets"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct tense: They ___ here since morning.",
+    "options": [
+      "are",
+      "were",
+      "have been",
+      "had been"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which word is a verb?",
+    "options": [
+      "table",
+      "write",
+      "soft",
+      "sky"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct article: ___ umbrella",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the synonym of 'small'",
+    "options": [
+      "big",
+      "tiny",
+      "large",
+      "huge"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the opposite of 'happy'?",
+    "options": [
+      "sad",
+      "joyful",
+      "excited",
+      "calm"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Fill in the blank: He has ___ friends.",
+    "options": [
+      "much",
+      "many",
+      "a",
+      "some of"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which word is a conjunction?",
+    "options": [
+      "but",
+      "walk",
+      "red",
+      "softly"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Choose the correct sentence",
+    "options": [
+      "He run fast",
+      "He runs fast",
+      "He running fast",
+      "He ran fastly"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the superlative of 'good'?",
+    "options": [
+      "better",
+      "gooder",
+      "best",
+      "more good"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Select the preposition: 'The book is ___ the table.'",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the noun in this sentence: 'The dog barks loudly.'",
+    "options": [
+      "barks",
+      "loudly",
+      "dog",
+      "the"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Choose the correct spelling",
+    "options": [
+      "necessary",
+      "neccessary",
+      "necessery",
+      "necesary"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Complete: 'We ___ to the zoo tomorrow.'",
+    "options": [
+      "go",
+      "goes",
+      "will go",
+      "going"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which word is an adverb?",
+    "options": [
+      "slow",
+      "slowly",
+      "slowness",
+      "slower"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the right question word: ___ old are you?",
+    "options": [
+      "What",
+      "Who",
+      "How",
+      "When"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the plural of 'man'?",
+    "options": [
+      "mans",
+      "men",
+      "manes",
+      "mens"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Select the correct: I have ___ homework.",
+    "options": [
+      "a",
+      "some",
+      "the",
+      "many"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the synonym of 'tired'",
+    "options": [
+      "energetic",
+      "exhausted",
+      "happy",
+      "strong"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the opposite of 'fast'?",
+    "options": [
+      "quick",
+      "slow",
+      "rapid",
+      "swift"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which one is a pronoun?",
+    "options": [
+      "chair",
+      "they",
+      "jump",
+      "red"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct past form of 'see'",
+    "options": [
+      "seed",
+      "saw",
+      "seen",
+      "seeing"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Complete: 'She ___ a song now.'",
+    "options": [
+      "sing",
+      "sings",
+      "singing",
+      "is singing"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Which word is an adjective?",
+    "options": [
+      "kindness",
+      "kind",
+      "kindly",
+      "kinder"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choose the correct article: ___ orange",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the comparative of 'tall'?",
+    "options": [
+      "taller",
+      "more tall",
+      "tallest",
+      "most tall"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Select the correct tense: I ___ to the store yesterday.",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which word is a conjunction?",
+    "options": [
+      "or",
+      "play",
+      "yellow",
+      "soft"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the noun in this sentence: 'The bird flies high.'",
+    "options": [
+      "flies",
+      "high",
+      "bird",
+      "the"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Choose the correct spelling",
+    "options": [
+      "separate",
+      "seperate",
+      "separrate",
+      "seperete"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Complete: 'They ___ happy yesterday.'",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "correct_option_id": 1
   }
 ]

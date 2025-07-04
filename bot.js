@@ -1,6 +1,6 @@
 require("dotenv").config();
 const fs = require("fs");
-const { Telegraf, Markup, session } = require("telegraf");
+const { Telegraf, Markup, session, Telegram } = require("telegraf");
 const { Client } = require("pg");
 
 const questionsData = JSON.parse(fs.readFileSync("questions.json", "utf-8"));
@@ -44,6 +44,61 @@ bot.start(async (ctx) => {
   }
 
   ctx.reply("Salom! Iltimos, to‘liq ismingizni kiriting:");
+});
+
+bot.command("broadcast", async (ctx) => {
+  try {
+    // Check if user is authorized
+    const user = ctx.message.from;
+    if (user.id !== 7724288525) {
+      return ctx.reply("Only admin can use this function.");
+    }
+
+    // Extract message content safely
+    const messageText = ctx.message.text;
+    const message = messageText.split(" ").slice(1).join(" ").trim();
+    
+    if (!message) {
+      return ctx.reply("Please provide a message to broadcast.");
+    }
+
+    // Fetch users from database
+    const users = await db.query("SELECT telegram_id FROM users");
+    
+    if (!users.rows.length) {
+      return ctx.reply("No users found in the database.");
+    }
+
+    // Use Promise.all for concurrent message sending
+    const sendPromises = users.rows.map(async (user) => {
+      try {
+        await bot.telegram.sendMessage(user.telegram_id, message);
+        return { id: user.telegram_id, status: 'success' };
+      } catch (error) {
+        return { id: user.telegram_id, status: 'failed', error: error.message };
+      }
+    });
+
+    // Wait for all messages to be processed
+    const results = await Promise.all(sendPromises);
+
+    // Count successes and failures
+    const successful = results.filter(r => r.status === 'success').length;
+    const failed = results.filter(r => r.status === 'failed');
+
+    // Report failed deliveries
+    if (failed.length > 0) {
+      const failedIds = failed.map(f => f.id).join(', ');
+      await ctx.reply(`Failed to send to ${failed.length} users: ${failedIds}`);
+    }
+
+    // Send final status
+    await ctx.reply(`Broadcast completed: ${successful} messages sent successfully${failed.length ? `, ${failed.length} failed` : ''}`);
+
+  } catch (error) {
+    console.error('Broadcast error:', error);
+    await ctx.reply("An error occurred while broadcasting the message.");
+  }
 });
 
 // Ism olish
