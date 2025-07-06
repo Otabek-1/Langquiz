@@ -103,29 +103,41 @@ bot.command("broadcast", async (ctx) => {
 
 bot.command("login", async (ctx) => {
   const user = ctx.message.from;
+
   try {
     const foundUser = await db.query("SELECT * FROM users WHERE telegram_id = $1", [user.id]);
+
     if (!foundUser.rowCount) {
-      ctx.reply("Siz hali ro'yxatdan o'tmagansiz. Ro'yxatdan o'tish uchun /start buyrug'ini jo'nating.");
+      return ctx.reply("❗ Siz hali ro'yxatdan o'tmagansiz. Ro'yxatdan o'tish uchun /start buyrug'ini yuboring.");
+    }
+
+    const userData = foundUser.rows[0];
+
+    if (!userData.login || !userData.password) {
+      const login = userData.full_name.split(" ")[0] + Math.floor(Math.random() * 100);
+      const password = userData.full_name.split(" ")[1] + Math.floor(Math.random() * 100);
+
+      await db.query(
+        "UPDATE users SET login = $1, password = $2 WHERE telegram_id = $3",
+        [login, password, user.id]
+      );
+
+      return ctx.reply(
+        `✅ Siz muvaffaqiyatli tizimga kirdingiz.\n\n🪪 Login: <code>${login}</code>\n🔐 Parol: <code>${password}</code>`,
+        { parse_mode: "HTML" }
+      );
     } else {
-      if (foundUser.login == null || foundUser.password == null) {
-        const login = foundUser.rows[0].full_name.split(" ")[0] + Math.floor(Math.random() * 100);
-        const password = foundUser.rows[0].full_name.split(" ")[1] + Math.floor(Math.random() * 100);
-        const updateUser = await db.query("UPDATE users SET login = $1 AND password = $2 WHERE telegram_id = $3", [login, password, user.id]);
-        ctx.reply(`Sizning login va parol:\nLogin: <code>${login}</code>\nParol: <code>${password}</code>`, {
-          parse_mode:"HTML"
-        })
-      }else{
-        ctx.reply(`Sizning login va parol:\nLogin: <code>${foundUser.login}</code>\nParol: <code>${foundUser.password}</code>`, {
-          parse_mode:"HTML"
-        })
-      }
-      
+      return ctx.reply(
+        `🪪 Sizning avval yaratilgan ma'lumotlaringiz:\n\nLogin: <code>${userData.login}</code>\nParol: <code>${userData.password}</code>`,
+        { parse_mode: "HTML" }
+      );
     }
   } catch (error) {
-
+    console.error("Login error:", error);
+    ctx.reply("❌ Xatolik yuz berdi. Iltimos, keyinroq urinib ko‘ring.");
   }
-})
+});
+
 
 // Ism olish
 bot.on("text", async (ctx) => {
