@@ -222,4 +222,7 @@ bot.action(/^answer_(\d+)_(\d+)$/, async (ctx) => {
   await sendQuestion(ctx);
 });
 
-bot.launch();
+module.exports = {
+  db,
+  bot
+}
