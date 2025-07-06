@@ -57,14 +57,14 @@ bot.command("broadcast", async (ctx) => {
     // Extract message content safely
     const messageText = ctx.message.text;
     const message = messageText.split(" ").slice(1).join(" ").trim();
-    
+
     if (!message) {
       return ctx.reply("Please provide a message to broadcast.");
     }
 
     // Fetch users from database
     const users = await db.query("SELECT telegram_id FROM users");
-    
+
     if (!users.rows.length) {
       return ctx.reply("No users found in the database.");
     }
@@ -100,6 +100,32 @@ bot.command("broadcast", async (ctx) => {
     await ctx.reply("An error occurred while broadcasting the message.");
   }
 });
+
+bot.command("login", async (ctx) => {
+  const user = ctx.message.from;
+  try {
+    const foundUser = await db.query("SELECT * FROM users WHERE telegram_id = $1", [user.id]);
+    if (!foundUser.rowCount) {
+      ctx.reply("Siz hali ro'yxatdan o'tmagansiz. Ro'yxatdan o'tish uchun /start buyrug'ini jo'nating.");
+    } else {
+      if (foundUser.login == null || foundUser.password == null) {
+        const login = foundUser.rows[0].full_name.split(" ")[0] + Math.floor(Math.random() * 100);
+        const password = foundUser.rows[0].full_name.split(" ")[1] + Math.floor(Math.random() * 100);
+        const updateUser = await db.query("UPDATE users SET login = $1 AND password = $2 WHERE telegram_id = $3", [login, password, user.id]);
+        ctx.reply(`Sizning login va parol:\nLogin: <code>${login}</code>\nParol: <code>${password}</code>`, {
+          parse_mode:"HTML"
+        })
+      }else{
+        ctx.reply(`Sizning login va parol:\nLogin: <code>${foundUser.login}</code>\nParol: <code>${foundUser.password}</code>`, {
+          parse_mode:"HTML"
+        })
+      }
+      
+    }
+  } catch (error) {
+
+  }
+})
 
 // Ism olish
 bot.on("text", async (ctx) => {
