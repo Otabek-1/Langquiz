@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const { db, bot } = require("./bot.js");
 const readingMocks = require("./readingMocks.json");
+require("dotenv").config
 
 const app = express();
 app.use(express.json())
@@ -146,5 +147,5 @@ app.post("/get-result", async (req, res) => {
     }
 })
 
-app.listen(4000, () => console.log("Server is running on port: 4000"))
+app.listen(process.env.PORT || 4000, () => console.log("Server is running on port: 4000"))
 bot.launch()
